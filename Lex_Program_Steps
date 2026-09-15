@@ -1,0 +1,6 @@
+>set PATH=C:\Program Files (x86)\GnuWin32\bin
+flex capital.l
+lex.yy.c
+set PATH=C:\Program Files (x86)\MinGW\bin
+gcc lex.yy.c
+a.exe
